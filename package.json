@@ -1,0 +1,21 @@
+{
+  "name": "kategori-guru",
+  "version": "1.0.0",
+  "description": "Aplikasi Full-Stack untuk pemilihan guru favorit.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongo",
+    "express"
+  ],
+  "author": "Anda",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "path": "^0.12.7"
+  }
+}

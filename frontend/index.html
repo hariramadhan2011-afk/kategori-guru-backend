@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemilihan Guru Favorit Siswa</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Form Pemilihan Guru Favorit</h1>
+        <p>Pilih guru favorit Anda untuk setiap kategori:</p>
+        
+        <form id="guruForm">
+
+            <div class="form-group">
+                <label for="namaSiswa">Nama Siswa (Opsional):</label>
+                <input type="text" id="namaSiswa" name="namaSiswa" placeholder="Masukkan nama Anda">
+            </div>
+
+            <div class="form-group">
+                <label for="guruTerbaik">1. Guru Terbaik:</label>
+                <select id="guruTerbaik" name="guruTerbaik" class="guru-select" required>
+                    <option value="">-- Memuat Guru --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="guruTerapih">2. Guru Terapih:</label>
+                <select id="guruTerapih" name="guruTerapih" class="guru-select" required>
+                    <option value="">-- Memuat Guru --</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="guruTerheboh">3. Guru Terheboh:</label>
+                <select id="guruTerheboh" name="guruTerheboh" class="guru-select" required>
+                    <option value="">-- Memuat Guru --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="guruTerasik">4. Guru Terasik:</label>
+                <select id="guruTerasik" name="guruTerasik" class="guru-select" required>
+                    <option value="">-- Memuat Guru --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="guruTergokil">5. Guru Tergokil:</label>
+                <select id="guruTergokil" name="guruTergokil" class="guru-select" required>
+                    <option value="">-- Memuat Guru --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="guruTerajin">6. Guru Terajin:</label>
+                <select id="guruTerajin" name="guruTerajin" class="guru-select" required>
+                    <option value="">-- Memuat Guru --</option>
+                </select>
+            </div>
+
+            <button type="submit">Kirim Pilihan Guru</button>
+        </form>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
